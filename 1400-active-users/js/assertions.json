@@ -1,0 +1,27 @@
+{
+  "simulation": "com.se.content.api.test1.PCSimulation",
+  "simulationId": "pcsimulation",
+  "start": 1637672832163,
+  "description": "",
+  "scenarios": ["Content Experience API"],
+  "assertions": [
+{
+  "path": "Api for cards",
+  "target": "95th percentile of response time",
+  "condition": "is less than or equal to",
+  "expectedValues": [800.0],
+  "result": false,
+  "message": "Api for cards: 95th percentile of response time is less than or equal to 800.0",
+  "actualValue": [15558.0]
+},
+{
+  "path": "Api for pages",
+  "target": "95th percentile of response time",
+  "condition": "is less than or equal to",
+  "expectedValues": [800.0],
+  "result": false,
+  "message": "Api for pages: 95th percentile of response time is less than or equal to 800.0",
+  "actualValue": [21465.0]
+}
+  ]
+}
