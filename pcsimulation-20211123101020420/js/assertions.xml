@@ -1,0 +1,8 @@
+<testsuite name="com.se.content.api.test1.PCSimulation" tests="2" errors="0" failures="1" time="0">
+<testcase name="Api for cards: 95th percentile of response time is less than or equal to 800.0" status="true" time="0">
+  <system-out>Api for cards: 95th percentile of response time is less than or equal to 800.0</system-out>
+</testcase>
+<testcase name="Api for pages: 95th percentile of response time is less than or equal to 800.0" status="false" time="0">
+  <failure type="Api for pages">Actual value: 4762.0</failure>
+</testcase>
+</testsuite>
